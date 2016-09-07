@@ -1,0 +1,32 @@
+{
+  "name": "jg-records",
+  "version": "1.0.0",
+  "description": "Specialising in selling kick-ass records.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jock-dalby/jg-records.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jock-dalby/jg-records/issues"
+  },
+  "homepage": "https://github.com/jock-dalby/jg-records#readme",
+  "dependencies": {
+    "chimp": "^0.40.6",
+    "cucumber-assert": "^1.0.4",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "nodemon": "^1.10.2",
+    "xtend": "^4.0.1"
+  },
+  "devDependencies": {
+    "cucumber-assert": "^1.0.4"
+  }
+}
