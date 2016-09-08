@@ -1,0 +1,15 @@
+<h1>Top 10 Greatest Songs of All Time</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Song</th>
+    <th>Artist</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    {{#each songs}}
+      <td>{{songName}}</td>
+      <td>{{artist}}</td>
+      <td>{{year}}</td>
+    {{/each}}
+  </tr>
