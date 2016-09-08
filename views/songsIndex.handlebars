@@ -6,10 +6,10 @@
     <th>Artist</th>
     <th>Year</th>
   </tr>
+  {{#each songs}}
   <tr>
-    {{#each songs}}
-      <td>{{songName}}</td>
-      <td>{{artist}}</td>
-      <td>{{year}}</td>
-    {{/each}}
+    <td>{{songName}}</td>
+    <td>{{artist}}</td>
+    <td>{{year}}</td>
   </tr>
+  {{/each}}
