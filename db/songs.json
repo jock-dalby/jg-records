@@ -1,0 +1,14 @@
+{
+  "songs":[
+    {"songName": "Life On Mars?", "artist": "David Bowie", "year": "1971"},
+    {"songName": "Let It Be", "artist": "The Beatles", "year": "1970"},
+    {"songName": "Tangled Up in Blue", "artist": "Bob Dylan", "year": "1975"},
+    {"songName": "Unchained Melody", "artist": "The Righteous Brothers", "year": "1965"},
+    {"songName": "Lola", "artist": "The Kinks", "year": "1970"},
+    {"songName": "Redemption Song", "artist": "Bob Marley", "year": "1979"},
+    {"songName": "Saint James Infirmary", "artist": "Louis Armstrong", "year": "1928"},
+    {"songName": "Somewhere Over the Rainbow", "artist": "Judy Garland", "year": "1939"},
+    {"songName": "I’ve Got You Under My Skin", "artist": "Frank Sinatra", "year": "1956"},
+    {"songName": "Everybody Hurts", "artist": "REM", "year": "1993"}
+  ]
+}
