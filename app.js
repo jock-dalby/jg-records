@@ -2,6 +2,7 @@ var express = require('express')
 var exphbs = require('express-handlebars')
 var path = require('path')
 var bodyParser = require('body-parser')
+var port = process.env.PORT || 3000 || 80
 
 var app = express()
 
@@ -17,10 +18,16 @@ app.use(express.static(path.join(__dirname, 'public')))
 
 
 
+
 //---------------------ROUTES---------------------------
 
 app.get('/', function(req, res) {
   res.send('deployed to Heroku')
+})
+
+
+app.listen(port, function () {
+  console.log('server listening on port: ', port)
 })
 
 
